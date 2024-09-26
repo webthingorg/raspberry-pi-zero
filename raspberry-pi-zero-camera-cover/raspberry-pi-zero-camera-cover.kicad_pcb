@@ -1,0 +1,1972 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.59)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(date "2023-10-11")
+		(rev "1")
+	)
+	(layers
+		(0 "F.Cu" signal "Front")
+		(31 "B.Cu" signal "Back")
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(49 "F.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.5)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "HAL lead-free")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 117 115)
+		(pcbplotparams
+			(layerselection 0x00010d0_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions yes)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 6)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference no)
+			(plotvalue no)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "rpi-zero-2w-cover")
+		)
+	)
+	(property "Order-Number" "JLCJLCJLCJLC")
+	(net 0 "")
+	(net 1 "GND")
+	(footprint "V2_Mechanical:MountingHole_8mm"
+		(layer "F.Cu")
+		(uuid "14f65dde-00c4-47cb-a714-45b2b3316d61")
+		(at 149.5 100)
+		(descr "Mounting Hole 10mm, no annular")
+		(tags "mounting hole 10mm no annular")
+		(property "Reference" "H106"
+			(at -0.004 -5.726 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7036e303-8245-48c3-b488-ec19d6ff1414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_10mm"
+			(at 0 5.976 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd935e3-38a4-4c96-80e8-c459b37a53eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e0f380b-6680-4743-bb94-45574831108b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec0e66e-74bf-48c9-b586-141e920f6166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c97c6635-219b-44e9-81e9-6a41d06d3004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a0de43-f5b9-478b-967d-5d699b45ba7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b4802c-3af6-4eb3-a7b5-d4b0616a8949")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/19cd09e8-02a1-42ef-8219-c115a5c7f5b1")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "32ab30cd-3996-48bc-bc77-649b057a7188")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "464e11aa-3cf4-4fac-9e18-5c94b6defbf5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 10.75 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b16887a0-a9e6-4ee2-b7dc-296a35ebdfdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2mm_Pad_4mm"
+		(layer "F.Cu")
+		(uuid "2103b4bc-8b88-4591-9c29-e1a744380d46")
+		(at 149.5 89.5)
+		(property "Reference" "H102"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca68df04-ee77-4f64-b8a7-54780671e645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2mm_Pad_4mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cb40a54-8aa4-4893-af63-ffbf03abed01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f8386d-0cbb-4cd3-8ec5-01ff6713cb43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50eb4bb-e2ca-46be-85c7-e4e988dc416a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a6d68d4-05ea-49dd-805f-0a5cc7354a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdcd07d5-2390-45e2-860c-9a00c616f1fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c99ae2-f6d1-4e2c-ba3d-9af254c16581")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f4d225f8-0aa8-4364-a00a-eea76cd19041")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ca042e85-a55a-4b32-b01c-f0017b740943")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fd28b6f2-4d5e-4b72-a989-ebca857ede80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 4 4)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "c4c218e8-75ce-4dc0-bc74-22e1d2fc709b")
+		)
+	)
+	(footprint "V2_PCB_Devices:PCB_Button-top"
+		(layer "F.Cu")
+		(uuid "43acb4b4-6ad0-4477-baee-3f335ccefb5c")
+		(at 168 100)
+		(property "Reference" "SWT101"
+			(at 0 -6.35 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31a4d534-2000-40d3-bb2c-7b2646ac84da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Button-top"
+			(at 0 6.35 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aced4fe-9ebe-4820-9582-be9f7ae1c0e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f14ea62-72cb-4bc8-b5ca-caac5f2a341a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "311549cb-09b0-4bbb-94ba-3b2f6deafc1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0f5ce44-9e87-40cc-8f61-dfd1fd54c55c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4640dc-d0ab-4514-b0dc-0a2b817b415a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79615576-0180-42b3-ba1d-eaecfa22c9c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8f977aac-b910-4bd9-8aec-d97ae3dc59c2")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -1.65 -5.1)
+			(end 1.65 -5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fdb2f519-b19e-4110-8f07-8f0f4b857cd7")
+		)
+		(fp_line
+			(start -1.65 5.1)
+			(end -1.65 -5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f208d185-ca58-423d-a56b-bf870b2bd588")
+		)
+		(fp_line
+			(start 1.65 -5.1)
+			(end 1.65 5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0667600b-bdee-45de-a9b2-9be6de988925")
+		)
+		(fp_line
+			(start 1.65 5.1)
+			(end -1.65 5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "79c62161-0a11-4003-809c-187b10cd952f")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.4 -4.85)
+			(size 0.7 0.7)
+			(drill 0.7)
+			(layers "*.Mask")
+			(uuid "d8516977-3d0b-42cd-8209-7142e72df709")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.4 4.85)
+			(size 0.7 0.7)
+			(drill 0.7)
+			(layers "*.Mask")
+			(uuid "f9c4f2bf-773d-4379-9e3d-08b60a4e4289")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.4 -4.85)
+			(size 0.7 0.7)
+			(drill 0.7)
+			(layers "*.Mask")
+			(uuid "a0d0b4f2-c6e9-4c73-91ce-f16a73b9524d")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.4 4.85)
+			(size 0.7 0.7)
+			(drill 0.7)
+			(layers "*.Mask")
+			(uuid "7b1baf67-859f-419b-b0fa-ea0ea401671a")
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2.5mm_Pad_5mm"
+		(layer "F.Cu")
+		(uuid "454cb730-15d1-4902-8a85-6569c431c521")
+		(at 178.5 111.5)
+		(property "Reference" "H101"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "63d8c6e8-597c-40a9-87bf-45641f44f94d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm_Pad_5mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc018965-37a1-46e6-93a5-17f81c36f9ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f02df3b-4d3e-4461-a30e-270f800ac9c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05d9f3ea-9dd1-4db3-80f6-8ce62f0657da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edd15b8e-38b9-4120-ae9c-4198465e4cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bea39ad-09e4-4e0b-969e-e78560210d91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b67a0c-265b-46b2-bd7d-0b378996ed54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b5a9ea4e-8814-429b-a837-07a2647096fd")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f5831e93-6dfa-443a-99b0-da385bd437ed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "36fa9451-7fed-445b-80d6-a7e05557de59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 5 5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "7e41b15d-89b7-4d3e-bc3c-73843a1f756d")
+		)
+	)
+	(footprint "V2_Artwork:Logo_Small"
+		(layer "F.Cu")
+		(uuid "552eacff-0ed8-4174-aeef-cc4ed8dd5e1b")
+		(at 178.5 100 90)
+		(property "Reference" "ICON101"
+			(at 0 -3.35 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40a8e6cf-3df4-4e5d-a342-eeb4128f4755")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "V2-logo"
+			(at 0 3.73 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76da1664-2730-40bd-b3fe-907d1eba9146")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "579946f9-2875-44c0-aee7-1c1b62c71f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "352d512b-de23-4cec-ac78-6e246693dffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae1e166c-58b9-4169-884f-6cb165aad456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f42fdae6-5e69-4d82-a7a0-f22ec9f6f441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "210c2b1c-ebf9-4532-974a-547ffc0ebbb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ff5fa334-854e-4ca7-a359-9c419e0f5264")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_poly
+			(pts
+				(xy 1.91 1.7195) (xy -2.1005 1.7195) (xy -2.1005 0.0585) (xy -1.773 0.0585) (xy -1.773 1.392) (xy 1.5825 1.392)
+				(xy 1.5825 -1.4555) (xy -2.1005 -1.4555) (xy -2.1005 -1.783) (xy 1.91 -1.783)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "85dedacb-3437-4adf-aea8-b65ec947f2d9")
+		)
+		(fp_poly
+			(pts
+				(xy -1.617677 -1.221322) (xy -1.084635 0.601822) (xy -1.059048 0.604213) (xy -0.526231 -1.218162)
+				(xy -0.494416 -1.314387) (xy -0.190339 -1.314387) (xy -0.085353 -1.31286) (xy -0.918222 1.270316)
+				(xy -1.019731 1.273487) (xy -1.223737 1.273487) (xy -2.056569 -1.309583) (xy -1.95594 -1.314387)
+				(xy -1.651908 -1.314387)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "593ad2c8-25c2-43a3-9495-a2d98c2eaba2")
+		)
+		(fp_poly
+			(pts
+				(xy 0.862421 -1.32688) (xy 0.960344 -1.303887) (xy 1.053932 -1.266924) (xy 1.140943 -1.216397) (xy 1.219701 -1.153847)
+				(xy 1.289786 -1.081749) (xy 1.350542 -1.001625) (xy 1.399768 -0.913898) (xy 1.435918 -0.820016)
+				(xy 1.458468 -0.722) (xy 1.467956 -0.621911) (xy 1.465544 -0.521418) (xy 1.450928 -0.421932) (xy 1.422941 -0.325314)
+				(xy 1.381219 -0.233761) (xy 1.32667 -0.149382) (xy 0.531352 0.87181) (xy 0.569453 0.895459) (xy 1.36796 0.895459)
+				(xy 1.468453 0.900054) (xy 1.468453 1.206089) (xy 1.430088 1.273471) (xy 0.0225 1.273487) (xy 0.0225 0.967661)
+				(xy 0.055771 0.877369) (xy 0.979104 -0.30523) (xy 1.038253 -0.385132) (xy 1.080844 -0.473929) (xy 1.098164 -0.570885)
+				(xy 1.091767 -0.669077) (xy 1.059415 -0.761986) (xy 1.005396 -0.844371) (xy 0.93265 -0.91011) (xy 0.842392 -0.947991)
+				(xy 0.744555 -0.957379) (xy 0.647511 -0.941672) (xy 0.558941 -0.899254) (xy 0.485254 -0.834228)
+				(xy 0.432401 -0.751364) (xy 0.402317 -0.656406) (xy 0.361353 -0.584278) (xy 0.055147 -0.584278)
+				(xy 0.02538 -0.657535) (xy 0.039764 -0.758101) (xy 0.066781 -0.854983) (xy 0.107035 -0.947172) (xy 0.159906 -1.032748)
+				(xy 0.223839 -1.110347) (xy 0.296655 -1.179682) (xy 0.377971 -1.238903) (xy 0.467163 -1.285515)
+				(xy 0.562602 -1.317508) (xy 0.661819 -1.334283) (xy 0.76236 -1.336756)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "d5bda60c-6239-463f-92f5-73ae8142b09b")
+		)
+		(fp_poly
+			(pts
+				(xy 1.91 1.7195) (xy -2.1005 1.7195) (xy -2.1005 0.0585) (xy -1.773 0.0585) (xy -1.773 1.392) (xy 1.5825 1.392)
+				(xy 1.5825 -1.4555) (xy -2.1005 -1.4555) (xy -2.1005 -1.783) (xy 1.91 -1.783)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "af893dc7-e4e0-4dac-b4bb-59509d512d9d")
+		)
+		(fp_poly
+			(pts
+				(xy -1.617677 -1.221322) (xy -1.084635 0.601822) (xy -1.059048 0.604213) (xy -0.526231 -1.218162)
+				(xy -0.494416 -1.314387) (xy -0.190339 -1.314387) (xy -0.085353 -1.31286) (xy -0.918222 1.270316)
+				(xy -1.019731 1.273487) (xy -1.223737 1.273487) (xy -2.056569 -1.309583) (xy -1.95594 -1.314387)
+				(xy -1.651908 -1.314387)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "849542e5-369f-42c0-b2b1-1194935fd4c3")
+		)
+		(fp_poly
+			(pts
+				(xy 0.862421 -1.32688) (xy 0.960344 -1.303887) (xy 1.053932 -1.266924) (xy 1.140943 -1.216397) (xy 1.219701 -1.153847)
+				(xy 1.289786 -1.081749) (xy 1.350542 -1.001625) (xy 1.399768 -0.913898) (xy 1.435918 -0.820016)
+				(xy 1.458468 -0.722) (xy 1.467956 -0.621911) (xy 1.465544 -0.521418) (xy 1.450928 -0.421932) (xy 1.422941 -0.325314)
+				(xy 1.381219 -0.233761) (xy 1.32667 -0.149382) (xy 0.531352 0.87181) (xy 0.569453 0.895459) (xy 1.36796 0.895459)
+				(xy 1.468453 0.900054) (xy 1.468453 1.206089) (xy 1.430088 1.273471) (xy 0.0225 1.273487) (xy 0.0225 0.967661)
+				(xy 0.055771 0.877369) (xy 0.979104 -0.30523) (xy 1.038253 -0.385132) (xy 1.080844 -0.473929) (xy 1.098164 -0.570885)
+				(xy 1.091767 -0.669077) (xy 1.059415 -0.761986) (xy 1.005396 -0.844371) (xy 0.93265 -0.91011) (xy 0.842392 -0.947991)
+				(xy 0.744555 -0.957379) (xy 0.647511 -0.941672) (xy 0.558941 -0.899254) (xy 0.485254 -0.834228)
+				(xy 0.432401 -0.751364) (xy 0.402317 -0.656406) (xy 0.361353 -0.584278) (xy 0.055147 -0.584278)
+				(xy 0.02538 -0.657535) (xy 0.039764 -0.758101) (xy 0.066781 -0.854983) (xy 0.107035 -0.947172) (xy 0.159906 -1.032748)
+				(xy 0.223839 -1.110347) (xy 0.296655 -1.179682) (xy 0.377971 -1.238903) (xy 0.467163 -1.285515)
+				(xy 0.562602 -1.317508) (xy 0.661819 -1.334283) (xy 0.76236 -1.336756)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "423446cc-572c-4fe3-b006-7c4ccdfac259")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.Cu")
+			(uuid "72aadfdd-c561-4140-8881-8caeec33fd75")
+			(hatch edge 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.254)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 180.3415 102.2225) (xy 180.3415 97.968) (xy 176.595 97.968) (xy 176.595 102.2225) (xy 177.13475 102.2225)
+					(xy 178.4365 101.79705) (xy 178.4365 102.2225)
+				)
+			)
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2.5mm_Pad_5mm"
+		(layer "F.Cu")
+		(uuid "70bcbbaf-216f-4922-bc35-22b0f1ee6177")
+		(at 120.5 111.5)
+		(property "Reference" "H107"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fcfe652d-3f3d-495c-af0d-dfa5e758a852")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm_Pad_5mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e74ece32-bb7c-4ae3-bfae-95a6499004fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b5fc59-828a-4f62-b18d-95b89d733ab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c888b66-07eb-4ae5-9562-3d54f786457e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c08e56cd-754c-4bc5-8d51-5e1f0d443891")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c56cb1-c400-49e6-a665-24a9fe40af2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb357db-da25-46fd-9eac-8c5e801c61da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/98ac4b2a-4d95-4694-a16b-703832ea3e92")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b46083a6-294a-4219-ae3b-7dd18978ef9c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "18a76dbe-9490-4037-b4ce-ebd0f3d24673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 5 5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "6663f186-de37-4c22-b9bc-3a1bd452d60a")
+		)
+	)
+	(footprint "V2_RaspberryPi:Zero"
+		(layer "F.Cu")
+		(uuid "862ab5b5-0697-455a-bb5d-081016d3f21c")
+		(at 117 115)
+		(property "Reference" "H108"
+			(at 0 3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "06256e2b-9e6d-4100-8e73-999a3c9360d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Zero"
+			(at 0 6.1 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62482a37-8004-482d-ae74-080d65d71b41")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b22f747e-3cbe-44d6-8f9d-df40429472c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66ef0796-5874-4f96-8a75-96b68b7d794c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0246f86-c69d-4d6a-b1be-4c7d1309758e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b960555b-585d-455e-9daa-b22c64d5bbff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b27d2b56-0c03-4997-be02-f65e9e3d3ff6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/47254ddd-7452-4346-8e38-4b3c603b2a99")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 -26.75)
+			(end 0 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f03d3655-7a80-49a8-973b-d4fdfa0ab6ea")
+		)
+		(fp_line
+			(start 3.25 -30)
+			(end 61.75 -30)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6124d721-e262-4663-98e4-740248e1a244")
+		)
+		(fp_line
+			(start 3.25 0)
+			(end 61.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f32597e-cefa-4248-97a7-34242d89458b")
+		)
+		(fp_line
+			(start 65 -26.75)
+			(end 65 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e3a54dce-bb6d-41fe-b79e-4b0ce5946b7f")
+		)
+		(fp_arc
+			(start 0 -26.75)
+			(mid 0.951903 -29.048097)
+			(end 3.25 -30)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "72fd45c9-92ad-4bbb-bde2-9026811b75fb")
+		)
+		(fp_arc
+			(start 3.25 0)
+			(mid 0.951903 -0.951903)
+			(end 0 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0e009d78-091b-4dd0-bbbb-917d3501bdab")
+		)
+		(fp_arc
+			(start 61.75 -30)
+			(mid 64.048097 -29.048097)
+			(end 65 -26.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f9aed770-b8b0-420f-9e61-e7b54d0c9678")
+		)
+		(fp_arc
+			(start 65 -3.25)
+			(mid 64.048097 -0.951903)
+			(end 61.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "40e26701-127b-4212-888e-6567e722e847")
+		)
+		(fp_circle
+			(center 22.55 -1.92)
+			(end 23.55 -1.92)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "0d8130ba-b748-4020-8fbc-45d84f9e5cda")
+		)
+		(fp_circle
+			(center 24.68 -1.92)
+			(end 25.68 -1.92)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a0d02807-9ae4-4fac-9e2c-acef443fd927")
+		)
+		(fp_text user "USB-"
+			(at 24 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ca604cc5-7517-4dbd-b239-754f2e611713")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.05)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "USB+"
+			(at 21.75 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ccb692f1-3f2b-4b0d-8fbe-a958251cf414")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.05)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2mm_Pad_4mm"
+		(layer "F.Cu")
+		(uuid "a0800ccd-1948-4ef6-8279-2448c3f63f5c")
+		(at 149.5 110.5)
+		(property "Reference" "H104"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c77903c-9261-4a46-a3ba-748b4c4c6626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2mm_Pad_4mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2bb1447-82bf-4e7a-8335-ef1d02125538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a3bdd35-e569-4e4e-8fa4-ee74aad3397d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47a3aa63-c7eb-4b0f-9ff8-6d97f6eeb5ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "197e15ed-daca-4b97-9cfa-3c8050ec91c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b78c95ef-be04-41ff-a4e2-e8f7b0594053")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "224ca45c-442c-48c3-ad12-869839ea5d15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/799bdb00-461f-4212-8d5b-3eaccdb7a29f")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f6afd78f-4339-445d-abec-6698f982bed4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "05f2df02-c6fa-4bda-ac7a-89c439f59722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 4 4)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "10ea6cba-d8a3-4a2f-9618-d72456b4192f")
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2.5mm_Pad_5mm"
+		(layer "F.Cu")
+		(uuid "dcc66934-5ddb-468b-b54a-ce6d8b8caadd")
+		(at 178.5 88.5)
+		(property "Reference" "H103"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d432a7e1-43c5-462d-8a33-728dfea25fb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm_Pad_5mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f52bdd8-daf7-4ea7-be87-71f8d696e0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48c3e86d-0fa7-40b5-a47b-8a5070ae0f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "460532af-1882-42a7-9549-9070a127cb0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6f260a9-0c59-40fa-952e-eff405098c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "383fd9d7-d490-403e-969c-eb986740a3e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f70cde9-124b-43ff-9472-8e20e75e7af4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/319787d4-c502-4634-86e8-9ce9ee884524")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "832b50e4-7354-4e28-a2dc-b91acacdf58c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9dd78c10-36b2-4775-a9f2-ed8d48a8a3ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 5 5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "bd317274-fbad-45ce-b4d0-228734f2ca78")
+		)
+	)
+	(footprint "V2_Mechanical:MountingHole_2.5mm_Pad_5mm"
+		(layer "F.Cu")
+		(uuid "ff249cbb-3bae-4063-8ea6-c818104eed03")
+		(at 120.5 88.5)
+		(property "Reference" "H105"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "952dc478-b580-4db0-869f-d5f5d1aaab34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm_Pad_5mm"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be4c5989-c890-4d56-834e-8d37c6320a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab9b1b80-5d55-4d50-afff-f44c834484b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9da75084-ed6b-427d-8e32-81dafcb54bd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40d79d22-bfc0-4b2e-9fdc-874ceb618c0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a361b54-7137-42e0-8904-f0cde64f19e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "763cbf34-75a4-4d35-bece-b839a9d253bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ff7338d3-651e-41af-8883-2fcfd9cca8c0")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2a3d4726-46f5-4464-9b47-9810ce942070")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "740fe86c-4270-41e1-9a4b-b7e7bb428927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole custom
+			(at 0 0)
+			(size 5 5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_bbox
+					(start -0.75 -0.75)
+					(end 0.75 0.75)
+					(fill no)
+				)
+			)
+			(uuid "df1ed7a6-3d99-4ba1-b28c-c2782a8bbca0")
+		)
+	)
+	(footprint "V2_Production:Order_Number"
+		(layer "B.Cu")
+		(uuid "4f161d4a-2553-461f-ba70-e111e78e2d2b")
+		(at 174 100 -90)
+		(property "Reference" "INFO101"
+			(at 0 1.77 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1a8c1fb0-5eff-411f-a635-c33a4fc8c8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "ORDER-NUMBER"
+			(at 0 -2.27 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "217829b0-9533-4608-80ac-bcc86b486e90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4be3267c-4f9d-44f5-8597-141cc7cbae0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d5ecd00-a532-4963-aecb-2f5bef9913f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42d37279-68a3-4e87-b31d-451f14b66a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ccbbe02b-08b0-497a-9b9a-faf39dc820c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "643275d6-cceb-4c4b-a4e1-c6d9088787fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
+		(sheetfile "raspberry-pi-zero-cover.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_rect
+			(start -7 0.75)
+			(end 7 -0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "22e27ebc-452f-4cd0-8731-50fde82a8cac")
+		)
+		(fp_text user "${Order-Number}"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e7ccb72c-0b11-4058-a66f-fa81daf99f25")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "0a35b7d2-8584-48d8-adc2-84f2ffe40995")
+		(hatch edge 0.508)
+		(priority 1)
+		(connect_pads yes
+			(clearance 0.2)
+		)
+		(min_thickness 0.2)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 182 115) (xy 117 115) (xy 117 85) (xy 182 85)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 178.752595 85.100636) (xy 179.074034 85.117481) (xy 179.084329 85.118563) (xy 179.3997 85.168513)
+				(xy 179.409813 85.170662) (xy 179.718248 85.253307) (xy 179.72808 85.256502) (xy 180.026189 85.370935)
+				(xy 180.035624 85.375136) (xy 180.32014 85.520104) (xy 180.3291 85.525278) (xy 180.596882 85.699177)
+				(xy 180.605254 85.70526) (xy 180.818061 85.877587) (xy 180.853389 85.906195) (xy 180.86109 85.913128)
+				(xy 181.086871 86.138909) (xy 181.093804 86.14661) (xy 181.294735 86.394739) (xy 181.300826 86.403123)
+				(xy 181.474717 86.670892) (xy 181.479899 86.679866) (xy 181.624859 86.964367) (xy 181.629067 86.973819)
+				(xy 181.743492 87.271907) (xy 181.746692 87.281754) (xy 181.829334 87.590174) (xy 181.831488 87.60031)
+				(xy 181.881435 87.915665) (xy 181.882518 87.925971) (xy 181.899364 88.247404) (xy 181.8995 88.252585)
+				(xy 181.8995 111.747414) (xy 181.899364 111.752595) (xy 181.882518 112.074028) (xy 181.881435 112.084334)
+				(xy 181.831488 112.399689) (xy 181.829334 112.409825) (xy 181.746692 112.718245) (xy 181.74349 112.7281)
+				(xy 181.629074 113.026165) (xy 181.624859 113.035632) (xy 181.479899 113.320133) (xy 181.474717 113.329107)
+				(xy 181.300826 113.596876) (xy 181.294735 113.60526) (xy 181.093804 113.853389) (xy 181.086871 113.86109)
+				(xy 180.86109 114.086871) (xy 180.853389 114.093804) (xy 180.60526 114.294735) (xy 180.596876 114.300826)
+				(xy 180.329107 114.474717) (xy 180.320133 114.479899) (xy 180.035632 114.624859) (xy 180.026173 114.62907)
+				(xy 179.738718 114.739414) (xy 179.7281 114.74349) (xy 179.718245 114.746692) (xy 179.409825 114.829334)
+				(xy 179.399689 114.831488) (xy 179.084334 114.881435) (xy 179.074028 114.882518) (xy 178.752595 114.899364)
+				(xy 178.747414 114.8995) (xy 120.252586 114.8995) (xy 120.247405 114.899364) (xy 119.925971 114.882518)
+				(xy 119.915665 114.881435) (xy 119.60031 114.831488) (xy 119.590174 114.829334) (xy 119.281754 114.746692)
+				(xy 119.271907 114.743492) (xy 118.973819 114.629067) (xy 118.964367 114.624859) (xy 118.679866 114.479899)
+				(xy 118.670892 114.474717) (xy 118.403123 114.300826) (xy 118.394739 114.294735) (xy 118.14661 114.093804)
+				(xy 118.138909 114.086871) (xy 117.913128 113.86109) (xy 117.906195 113.853389) (xy 117.705264 113.60526)
+				(xy 117.699173 113.596876) (xy 117.686471 113.577317) (xy 117.525278 113.3291) (xy 117.520104 113.32014)
+				(xy 117.375136 113.035624) (xy 117.370935 113.026189) (xy 117.256502 112.72808) (xy 117.253307 112.718245)
+				(xy 117.170662 112.409813) (xy 117.168513 112.3997) (xy 117.118563 112.084329) (xy 117.117481 112.074028)
+				(xy 117.100636 111.752595) (xy 117.1005 111.747414) (xy 117.1005 104.85) (xy 165.994318 104.85)
+				(xy 166.014955 105.006758) (xy 166.014957 105.006766) (xy 166.075462 105.152838) (xy 166.075462 105.152839)
+				(xy 166.171713 105.278276) (xy 166.171718 105.278282) (xy 166.297159 105.374536) (xy 166.443238 105.435044)
+				(xy 166.560639 105.4505) (xy 166.56064 105.4505) (xy 166.63936 105.4505) (xy 166.639361 105.4505)
+				(xy 166.756762 105.435044) (xy 166.902841 105.374536) (xy 167.028282 105.278282) (xy 167.058245 105.239232)
+				(xy 167.108669 105.204577) (xy 167.136787 105.2005) (xy 168.863213 105.2005) (xy 168.921404 105.219407)
+				(xy 168.941754 105.239232) (xy 168.971718 105.278282) (xy 169.097159 105.374536) (xy 169.243238 105.435044)
+				(xy 169.360639 105.4505) (xy 169.36064 105.4505) (xy 169.43936 105.4505) (xy 169.439361 105.4505)
+				(xy 169.556762 105.435044) (xy 169.702841 105.374536) (xy 169.828282 105.278282) (xy 169.924536 105.152841)
+				(xy 169.985044 105.006762) (xy 170.005682 104.85) (xy 169.985044 104.693238) (xy 169.924537 104.547161)
+				(xy 169.924537 104.54716) (xy 169.828281 104.421716) (xy 169.828278 104.421714) (xy 169.789232 104.391752)
+				(xy 169.754577 104.341328) (xy 169.7505 104.313211) (xy 169.7505 102.146264) (xy 176.5165 102.146264)
+				(xy 176.521715 102.157094) (xy 176.529035 102.178013) (xy 176.531709 102.189731) (xy 176.539203 102.199127)
+				(xy 176.550996 102.217894) (xy 176.556211 102.228723) (xy 176.556213 102.228725) (xy 176.565604 102.236214)
+				(xy 176.58128 102.251889) (xy 176.585078 102.256651) (xy 176.588776 102.261288) (xy 176.599597 102.266499)
+				(xy 176.599601 102.266501) (xy 176.618372 102.278296) (xy 176.627767 102.285789) (xy 176.627768 102.285789)
+				(xy 176.627769 102.28579) (xy 176.639486 102.288464) (xy 176.660408 102.295784) (xy 176.671237 102.301)
+				(xy 177.090262 102.301) (xy 177.090263 102.301) (xy 177.10109 102.295785) (xy 177.122011 102.288464)
+				(xy 177.133731 102.28579) (xy 177.142764 102.278585) (xy 177.195831 102.257363) (xy 177.202059 102.256816)
+				(xy 177.205845 102.25656) (xy 177.245689 102.254659) (xy 177.261549 102.246065) (xy 177.278323 102.238889)
+				(xy 178.228621 101.932495) (xy 178.289806 101.932634) (xy 178.339224 101.96871) (xy 178.358 102.026719)
+				(xy 178.358 102.146264) (xy 178.363215 102.157094) (xy 178.370535 102.178013) (xy 178.373209 102.189731)
+				(xy 178.380703 102.199127) (xy 178.392496 102.217894) (xy 178.397711 102.228723) (xy 178.397713 102.228725)
+				(xy 178.407104 102.236214) (xy 178.42278 102.251889) (xy 178.426578 102.256651) (xy 178.430276 102.261288)
+				(xy 178.441097 102.266499) (xy 178.441101 102.266501) (xy 178.459872 102.278296) (xy 178.469267 102.285789)
+				(xy 178.469268 102.285789) (xy 178.469269 102.28579) (xy 178.480986 102.288464) (xy 178.501908 102.295784)
+				(xy 178.512737 102.301) (xy 180.265262 102.301) (xy 180.265263 102.301) (xy 180.27609 102.295785)
+				(xy 180.297011 102.288464) (xy 180.308731 102.28579) (xy 180.318126 102.278297) (xy 180.336894 102.266502)
+				(xy 180.347724 102.261288) (xy 180.355219 102.251888) (xy 180.370888 102.236219) (xy 180.380288 102.228724)
+				(xy 180.385502 102.217894) (xy 180.397297 102.199126) (xy 180.40479 102.189731) (xy 180.407464 102.178011)
+				(xy 180.414785 102.15709) (xy 180.42 102.146263) (xy 180.42 102.054737) (xy 180.42 98.06741) (xy 180.42 98.044237)
+				(xy 180.414784 98.033408) (xy 180.407464 98.012486) (xy 180.40479 98.000769) (xy 180.404789 98.000768)
+				(xy 180.404789 98.000767) (xy 180.397296 97.991372) (xy 180.385501 97.972601) (xy 180.380288 97.961776)
+				(xy 180.380287 97.961775) (xy 180.370889 97.95428) (xy 180.355214 97.938604) (xy 180.347725 97.929213)
+				(xy 180.347723 97.929211) (xy 180.336894 97.923996) (xy 180.318127 97.912203) (xy 180.308731 97.904709)
+				(xy 180.297013 97.902035) (xy 180.276094 97.894715) (xy 180.265264 97.8895) (xy 180.265263 97.8895)
+				(xy 180.24209 97.8895) (xy 176.762763 97.8895) (xy 176.671237 97.8895) (xy 176.671235 97.8895) (xy 176.660404 97.894716)
+				(xy 176.639491 97.902034) (xy 176.627768 97.90471) (xy 176.618364 97.912209) (xy 176.599604 97.923996)
+				(xy 176.588778 97.92921) (xy 176.588774 97.929213) (xy 176.581276 97.938614) (xy 176.565614 97.954276)
+				(xy 176.556213 97.961774) (xy 176.55621 97.961778) (xy 176.550996 97.972604) (xy 176.539209 97.991364)
+				(xy 176.53171 98.000768) (xy 176.529034 98.012491) (xy 176.521716 98.033404) (xy 176.5165 98.044235)
+				(xy 176.5165 102.146264) (xy 169.7505 102.146264) (xy 169.7505 95.686787) (xy 169.769407 95.628596)
+				(xy 169.789233 95.608245) (xy 169.828282 95.578282) (xy 169.924536 95.452841) (xy 169.985044 95.306762)
+				(xy 170.005682 95.15) (xy 169.985044 94.993238) (xy 169.924537 94.847161) (xy 169.924537 94.84716)
+				(xy 169.828286 94.721723) (xy 169.828285 94.721722) (xy 169.828282 94.721718) (xy 169.828277 94.721714)
+				(xy 169.828276 94.721713) (xy 169.702838 94.625462) (xy 169.556766 94.564957) (xy 169.556758 94.564955)
+				(xy 169.439362 94.5495) (xy 169.439361 94.5495) (xy 169.360639 94.5495) (xy 169.360637 94.5495)
+				(xy 169.243241 94.564955) (xy 169.243233 94.564957) (xy 169.097161 94.625462) (xy 169.09716 94.625462)
+				(xy 168.971723 94.721713) (xy 168.971714 94.721722) (xy 168.941755 94.760767) (xy 168.891331 94.795423)
+				(xy 168.863213 94.7995) (xy 167.136787 94.7995) (xy 167.078596 94.780593) (xy 167.058245 94.760767)
+				(xy 167.028285 94.721722) (xy 167.028282 94.721718) (xy 167.028277 94.721714) (xy 167.028276 94.721713)
+				(xy 166.902838 94.625462) (xy 166.756766 94.564957) (xy 166.756758 94.564955) (xy 166.639362 94.5495)
+				(xy 166.639361 94.5495) (xy 166.560639 94.5495) (xy 166.560637 94.5495) (xy 166.443241 94.564955)
+				(xy 166.443233 94.564957) (xy 166.297161 94.625462) (xy 166.29716 94.625462) (xy 166.171723 94.721713)
+				(xy 166.171713 94.721723) (xy 166.075462 94.84716) (xy 166.075462 94.847161) (xy 166.014957 94.993233)
+				(xy 166.014955 94.993241) (xy 165.994318 95.149999) (xy 165.994318 95.15) (xy 166.014955 95.306758)
+				(xy 166.014957 95.306766) (xy 166.075462 95.452838) (xy 166.075462 95.452839) (xy 166.075464 95.452841)
+				(xy 166.171718 95.578282) (xy 166.171722 95.578285) (xy 166.210767 95.608245) (xy 166.245423 95.658669)
+				(xy 166.2495 95.686787) (xy 166.2495 104.313211) (xy 166.230593 104.371402) (xy 166.210768 104.391752)
+				(xy 166.171721 104.421714) (xy 166.171718 104.421716) (xy 166.075462 104.54716) (xy 166.075462 104.547161)
+				(xy 166.014957 104.693233) (xy 166.014955 104.693241) (xy 165.994318 104.849999) (xy 165.994318 104.85)
+				(xy 117.1005 104.85) (xy 117.1005 100) (xy 145.394555 100) (xy 145.414324 100.402404) (xy 145.414324 100.402409)
+				(xy 145.414325 100.402414) (xy 145.414325 100.402417) (xy 145.473439 100.800932) (xy 145.473439 100.800933)
+				(xy 145.571333 101.191747) (xy 145.707061 101.571082) (xy 145.707066 101.571093) (xy 145.879323 101.935299)
+				(xy 146.08644 102.280853) (xy 146.086445 102.28086) (xy 146.086447 102.280863) (xy 146.326448 102.604467)
+				(xy 146.597012 102.902988) (xy 146.895533 103.173552) (xy 147.219137 103.413553) (xy 147.219141 103.413555)
+				(xy 147.219146 103.413559) (xy 147.5647 103.620676) (xy 147.779458 103.722249) (xy 147.928914 103.792937)
+				(xy 148.308252 103.928666) (xy 148.308251 103.928666) (xy 148.699066 104.02656) (xy 148.859567 104.050367)
+				(xy 149.097596 104.085676) (xy 149.5 104.105445) (xy 149.902404 104.085676) (xy 150.300933 104.02656)
+				(xy 150.691748 103.928666) (xy 151.071086 103.792937) (xy 151.435293 103.620679) (xy 151.435294 103.620678)
+				(xy 151.435299 103.620676) (xy 151.780853 103.413559) (xy 151.780853 103.413558) (xy 151.780863 103.413553)
+				(xy 152.104467 103.173552) (xy 152.402988 102.902988) (xy 152.673552 102.604467) (xy 152.913553 102.280863)
+				(xy 152.925286 102.261287) (xy 153.120676 101.935299) (xy 153.120679 101.935293) (xy 153.292937 101.571086)
+				(xy 153.428666 101.191748) (xy 153.52656 100.800933) (xy 153.585676 100.402404) (xy 153.605445 100)
+				(xy 153.585676 99.597596) (xy 153.52656 99.199067) (xy 153.428666 98.808252) (xy 153.292937 98.428914)
+				(xy 153.222249 98.279458) (xy 153.120676 98.0647) (xy 152.913559 97.719146) (xy 152.913555 97.719141)
+				(xy 152.913553 97.719137) (xy 152.673552 97.395533) (xy 152.402988 97.097012) (xy 152.104467 96.826448)
+				(xy 151.780863 96.586447) (xy 151.78086 96.586445) (xy 151.780853 96.58644) (xy 151.435299 96.379323)
+				(xy 151.071093 96.207066) (xy 151.071082 96.207061) (xy 150.691746 96.071333) (xy 150.691748 96.071333)
+				(xy 150.300933 95.973439) (xy 149.902415 95.914325) (xy 149.902408 95.914324) (xy 149.902404 95.914324)
+				(xy 149.5 95.894555) (xy 149.097596 95.914324) (xy 149.097591 95.914324) (xy 149.097585 95.914325)
+				(xy 149.097582 95.914325) (xy 148.699067 95.973439) (xy 148.699066 95.973439) (xy 148.308252 96.071333)
+				(xy 147.928917 96.207061) (xy 147.928906 96.207066) (xy 147.5647 96.379323) (xy 147.219146 96.58644)
+				(xy 146.895531 96.826449) (xy 146.895524 96.826455) (xy 146.597026 97.096998) (xy 146.596998 97.097026)
+				(xy 146.326455 97.395524) (xy 146.326449 97.395531) (xy 146.08644 97.719146) (xy 145.879323 98.0647)
+				(xy 145.707066 98.428906) (xy 145.707061 98.428917) (xy 145.571333 98.808252) (xy 145.473439 99.199066)
+				(xy 145.473439 99.199067) (xy 145.414325 99.597582) (xy 145.414325 99.597585) (xy 145.414324 99.597591)
+				(xy 145.414324 99.597596) (xy 145.394555 100) (xy 117.1005 100) (xy 117.1005 88.252585) (xy 117.100636 88.247404)
+				(xy 117.117481 87.925971) (xy 117.118564 87.915665) (xy 117.168514 87.600295) (xy 117.170661 87.59019)
+				(xy 117.253309 87.281746) (xy 117.2565 87.271924) (xy 117.370938 86.973803) (xy 117.375133 86.964381)
+				(xy 117.520108 86.67985) (xy 117.525273 86.670907) (xy 117.699183 86.403108) (xy 117.705253 86.394753)
+				(xy 117.906204 86.146599) (xy 117.913118 86.138919) (xy 118.138919 85.913118) (xy 118.146599 85.906204)
+				(xy 118.394753 85.705253) (xy 118.403108 85.699183) (xy 118.670907 85.525273) (xy 118.67985 85.520108)
+				(xy 118.964381 85.375133) (xy 118.973803 85.370938) (xy 119.271924 85.2565) (xy 119.281746 85.253309)
+				(xy 119.59019 85.170661) (xy 119.600295 85.168514) (xy 119.915672 85.118563) (xy 119.925963 85.117481)
+				(xy 120.247405 85.100636) (xy 120.252586 85.1005) (xy 120.276929 85.1005) (xy 178.723071 85.1005)
+				(xy 178.747414 85.1005)
+			)
+		)
+	)
+)
